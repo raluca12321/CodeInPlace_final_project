@@ -6,6 +6,9 @@ import matplotlib.pyplot as plt
 from PIL import Image, ImageTk
 import io
 
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
+
 #Disable RDKit warnings
 RDLogger.DisableLog('rdApp.*') 
 
